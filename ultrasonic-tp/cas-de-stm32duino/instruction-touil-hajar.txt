@@ -1,0 +1,8 @@
+bonjour , là pour le capteur ultrasonic j'ai essayé de le programmer avec stm32 via interface IDE
+Arduino pour ce faire il faut suivre ses instructions:
+1:inclure la biblioteque de stm32duino sur IDE ARDUINO (nucleo 64-L476RG)
+2: inculure la bibliotheque de ultrasonic 
+3: inclure la biblioteque de LCD Grove 16*2 I2C 
+4: pour le cablage vous mettez l'ultrasonic sur la broche D7 de shield de STM32, et la lcd sur un 
+   des I2C 
+5: vous lancer le programme ultrasonic.ino et vous aurez la distance
